@@ -52,11 +52,10 @@ const getData = async (httpUrl) => {
 };
 
 const getLocalStorage = () => {
+    getData(url);
     if(bandera) {
         let dato = JSON.parse(localStorage.getItem("mis-datosguardados")); 
-        for (const i of dato) {
-            console.log(i.avatar);
-        } 
+
         id1.innerHTML += dato[0].id;
         id2.innerHTML += dato[1].id;
         id3.innerHTML += dato[2].id;
@@ -102,4 +101,3 @@ const getLocalStorage = () => {
     
 
 }
-getData(url);
