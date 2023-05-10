@@ -102,6 +102,6 @@ const getLocalStorage = () => {
     
 
 }
-//getData(url);
+getData(url);
 
 
