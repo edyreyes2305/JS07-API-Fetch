@@ -103,5 +103,3 @@ const getLocalStorage = () => {
 
 }
 getData(url);
-
-
